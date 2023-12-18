@@ -27,9 +27,9 @@ jobs:
     - name: AWS CLI
       run: dotnet tool install -g Amazon.Lambda.Tools
     - name: Restore dependencies
-      run: dotnet restore Services.sln
+      run: dotnet restore AWSServerless3.sln
     - name: Build
-      run: dotnet build --no-restore Services.sln
+      run: dotnet build --no-restore AWSServerless3.sln
     - name: Deploy to Lambda
-      working-directory: ./Services/ApiServices
+      working-directory: ./AWSServerless3.sln/ApiServices
       run: dotnet lambda deploy-serverless
