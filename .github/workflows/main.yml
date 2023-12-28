@@ -15,6 +15,7 @@ jobs:
         with:
           dotnet-version: 6.0.x  # Adjust version as needed
 
+
       - name: Build
         run: |
             cd AWSServerless3
