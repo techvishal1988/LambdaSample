@@ -10,7 +10,7 @@
       "Properties": {
         "Handler": "AWSServerless3::AWSServerless3.LambdaEntryPoint::FunctionHandlerAsync",
         "Runtime": "dotnet6",
-        "CodeUri": "",
+        "CodeUri": "AWSServerless3/",
         "MemorySize": 256,
         "Timeout": 30,
         "Role": null,
