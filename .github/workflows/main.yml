@@ -19,12 +19,12 @@ jobs:
         run: |
             cd AWSServerless3
             dotnet restore
-            dotnet build 
+            dotnet build --configuration Release
 
       - name: Publish
         run: |
             cd AWSServerless3
-            dotnet publish
+            dotnet publish -c Release -o publish
       - name: Deploy to AWS Lambda
         uses: aws-actions/configure-aws-credentials@v1
         with:
