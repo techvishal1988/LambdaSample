@@ -8,9 +8,9 @@
     "AspNetCoreFunction": {
       "Type": "AWS::Serverless::Function",
       "Properties": {
-        "Handler": "AWSServerless3.handler",
+        "Handler": "AWSServerless3::AWSServerless3.LambdaEntryPoint::FunctionHandlerAsync",
         "Runtime": "dotnet6",
-        "CodeUri": "AWSServerless3/",
+        "CodeUri": " ",
         "MemorySize": 256,
         "Timeout": 30,
         "Role": null,
