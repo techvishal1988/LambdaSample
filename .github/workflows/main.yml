@@ -6,6 +6,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
@@ -32,4 +33,4 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }} 
       - run: cd AWSServerless3 && dotnet restore
       - run: zip -r publish.zip ./AWSServerless3/*
-      - run: aws lambda update-function-code --function-name=HelloWorld-HelloWorldFunction-QZppcAMFCtKI  --zip-file=fileb://publish.zip 
+      - run: aws lambda update-function-code --function-name=sam-app-AspNetCoreFunction-WCwiwnDGkUhJ  --zip-file=fileb://publish.zip 
