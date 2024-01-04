@@ -34,7 +34,7 @@ public class Startup
             endpoints.MapControllers();
             endpoints.MapGet("/", async context =>
             {
-                await context.Response.WriteAsync("Welcome to running ASP.NET Core on AWS Lambda 2k23");
+                await context.Response.WriteAsync("Welcome to running ASP.NET Core on AWS Lambda 2k24");
             });
         });
     }
