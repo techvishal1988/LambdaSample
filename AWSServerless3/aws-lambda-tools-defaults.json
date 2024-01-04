@@ -8,7 +8,7 @@
   "profile": "VisualStudioTest",
   "region": "ap-southeast-1",
   "configuration": "Release",
-  "s3-prefix": "AWSServerless3/"
+  "s3-prefix": "AWSServerless3/",
   "template": "serverless.template",
   "template-parameters": "",
   "s3-bucket": "aws-sam-cli-managed-default-samclisourcebucket-ii7kyl2quojg",
