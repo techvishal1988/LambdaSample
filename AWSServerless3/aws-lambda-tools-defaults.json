@@ -10,5 +10,7 @@
   "configuration": "Release",
   "s3-prefix": "AWSServerless3/",
   "template": "serverless.template",
-  "template-parameters": ""
+  "template-parameters": "",
+  "s3-bucket": "sam-demo",
+  "stack-name": "sam-app"
 }
