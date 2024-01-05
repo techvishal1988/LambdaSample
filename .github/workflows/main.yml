@@ -16,13 +16,11 @@ jobs:
           dotnet-version: 6.0.x  # Adjust version as needed
       - name: Build
         run: |
-            cd AWSServerless3
             dotnet restore
             dotnet build --configuration Release
 
       - name: Publish
         run: |
-            cd AWSServerless3
             dotnet publish -c Release -o publish
       - name: AWS CLI
         run: dotnet tool install -g Amazon.Lambda.Tools
