@@ -24,6 +24,8 @@ jobs:
         run: |
             cd AWSServerless3
             dotnet publish -c Release -o publish
+      - name: AWS CLI
+        run: dotnet tool install -g Amazon.Lambda.Tools
       - name: Deploy to AWS Lambda
         uses: aws-actions/configure-aws-credentials@v1
         with:
