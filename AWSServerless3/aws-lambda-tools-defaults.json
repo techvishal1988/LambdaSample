@@ -5,13 +5,11 @@
     "dotnet lambda help",
     "All the command line options for the Lambda command can be specified in this file."
   ],
-  "profile": "VisualStudioTest",
-  "region": "ap-southeast-1",
+  "profile": "demo-dev",
+  "region": "us-west-1",
   "configuration": "Release",
-  "s3-prefix": "AWSServerless3/",
+  "framework": "netcoreapp6.1",
+  "s3-prefix": "Myapp/",
   "template": "serverless.template",
-  "template-parameters": "",
-  "s3-bucket": "aws-sam-cli-managed-default-samclisourcebucket-ii7kyl2quojg",
-  "stack-name": "sam-app"
-  
+  "template-parameters": ""
 }
