@@ -11,7 +11,7 @@
   "s3-prefix": "AWSServerless3/",
   "template": "serverless.template",
   "template-parameters": "",
-  "s3-bucket": "demo-aws-sam-cli-managed-default-samclisourcebucket-ii7kyl2quojg",
-  "stack-name": "sam-app-DEMO"
+  "s3-bucket": "aws-sam-cli-managed-default-samclisourcebucket-ii7kyl2quojg",
+  "stack-name": "sam-app"
   
 }
