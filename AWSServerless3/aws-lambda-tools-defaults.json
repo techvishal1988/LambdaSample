@@ -5,11 +5,11 @@
     "dotnet lambda help",
     "All the command line options for the Lambda command can be specified in this file."
   ],
-  "profile": "demo-dev",
-  "region": "us-west-1",
+  "profile": "",
+  "region": "",
   "configuration": "Release",
-  "framework": "netcoreapp6.1",
-  "s3-prefix": "Myapp/",
-  "template": "serverless.template",
+  "framework": "",
+  "s3-prefix": "",
+  "template": "",
   "template-parameters": ""
 }
