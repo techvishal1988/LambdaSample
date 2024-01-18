@@ -27,6 +27,7 @@ jobs:
       run: dotnet build --no-restore AWSServerless3.csproj
     - name: Publish
       run: |
+           cd AWSServerless3
            dotnet publish -c Release -o out
            ls
     - name: Install aws cli
